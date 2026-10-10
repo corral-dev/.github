@@ -1,0 +1,47 @@
+name: Bug report / 问题报告
+description: Describe a problem and how to reproduce it. / 描述问题与复现步骤。
+body:
+- type: markdown
+  attributes:
+    value: 'For vulnerabilities, use **Security → Report a vulnerability** in this repository. Keep keys,
+      pairing codes, private conversations and machine addresses out of public reports.
+
+
+      漏洞请使用本仓库的 **Security → Report a vulnerability** 私密报告。公开报告中请勿包含密钥、配对码、私人对话或机器地址。'
+- type: dropdown
+  id: component
+  attributes:
+    label: Component / 使用的部分
+    options:
+    - Terminal app / host · 终端应用或开发机
+    - Mac client · Mac 客户端
+    - iPhone client · iPhone 客户端
+    - Relay · 中继
+  validations:
+    required: true
+- type: input
+  id: version
+  attributes:
+    label: Version and platform / 版本与平台
+    placeholder: Corral version, OS version; assistant and terminal if relevant / Corral 版本、系统版本；相关时注明助手与终端
+  validations:
+    required: true
+- type: textarea
+  id: steps
+  attributes:
+    label: Steps to reproduce / 复现步骤
+  validations:
+    required: true
+- type: textarea
+  id: expected
+  attributes:
+    label: Expected result / 预期结果
+  validations:
+    required: true
+- type: textarea
+  id: actual
+  attributes:
+    label: Actual result / 实际结果
+    description: Include only relevant, redacted screenshots or log excerpts. / 仅附相关且已去除隐私的截图或日志片段。
+  validations:
+    required: true

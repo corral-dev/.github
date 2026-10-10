@@ -1,0 +1,34 @@
+name: Feature request / 功能建议
+description: Explain the task you want to make easier. / 说明想解决的使用问题。
+body:
+- type: markdown
+  attributes:
+    value: 'For vulnerabilities, use **Security → Report a vulnerability** in this repository. Keep keys,
+      pairing codes, private conversations and machine addresses out of public reports.
+
+
+      漏洞请使用本仓库的 **Security → Report a vulnerability** 私密报告。公开报告中请勿包含密钥、配对码、私人对话或机器地址。'
+- type: dropdown
+  id: component
+  attributes:
+    label: Component / 使用的部分
+    options:
+    - Terminal app / host · 终端应用或开发机
+    - Mac client · Mac 客户端
+    - iPhone client · iPhone 客户端
+    - Relay · 中继
+  validations:
+    required: true
+- type: textarea
+  id: task
+  attributes:
+    label: What do you want to do? / 你想完成什么？
+    description: Describe your workflow and where it gets difficult. / 描述使用场景及遇到的困难。
+  validations:
+    required: true
+- type: textarea
+  id: suggestion
+  attributes:
+    label: Suggested change / 建议的改进
+  validations:
+    required: false
