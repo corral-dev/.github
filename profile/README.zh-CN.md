@@ -22,7 +22,7 @@ corral
 
 请另外安装并登录支持的编程助手。[其他安装方式与首次使用](https://github.com/corral-dev/corral#install)。
 
-原生客户端目前需要在本机使用 Xcode 构建，尚无公开的 App Store 或 TestFlight 下载。同一网络内可以直连；跨网络访问使用你自己部署的中继。
+**Mac 版**提供签名 DMG 与 Homebrew cask（`brew install --cask x0c/tap/corral-mac`）下载；**iPhone 版**目前仍需在本机用 Xcode 构建（App Store 与 TestFlight 版本规划中）。同一网络内可以直连；跨网络访问使用你自己部署的中继。
 
 ## 获取帮助
 

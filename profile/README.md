@@ -22,7 +22,7 @@ corral
 
 Install and sign in to a supported coding assistant separately. [Other installation options and first use](https://github.com/corral-dev/corral#install).
 
-Native clients currently require a local Xcode build; public App Store and TestFlight downloads are not available yet. Same-network access works directly. Use your own relay for access across networks.
+The **Mac app** is available as a signed DMG and Homebrew cask (`brew install --cask x0c/tap/corral-mac`). The **iPhone app** currently requires a local Xcode build (App Store and TestFlight releases are planned). Same-network access works directly. Use your own relay for access across networks.
 
 ## Get help
 
